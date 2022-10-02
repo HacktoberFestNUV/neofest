@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/neofest/static/css/main.073c9b0a.css",
+    "main.js": "/neofest/static/js/main.daa28808.js",
+    "index.html": "/neofest/index.html",
+    "main.073c9b0a.css.map": "/neofest/static/css/main.073c9b0a.css.map",
+    "main.daa28808.js.map": "/neofest/static/js/main.daa28808.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.daa28808.js"
+  ]
+}
