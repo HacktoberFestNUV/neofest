@@ -1,0 +1,15 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/bg-2.png');
+    background-size: cover;
+}
+
+.background-bw{
+    filter: grayscale();
+}
+
+#mobile-text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
