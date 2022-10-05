@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase";
 // import { logout } from "./firebase";
-// import Header from './components/Header';
-// import FAQ from './components/FAQ';
-// import RSVPButton from './components/RSVPButton';
-import Hero from "./components/Hero";
-
+// import Header from './sections/Header';
+// import FAQ from './sections/FAQ';
+import Hero from "./sections/Hero";
+import Events from "./sections/Events";
 import "./App.css";
 
 function App() {
@@ -43,6 +42,7 @@ function App() {
       {/* <Header/> */}
       {!user && <Hero userPresent={userPresent}/>}
       {user && <Hero user={user} userPresent={userPresent} />}
+      <Events/>
       {/* <FAQ/> */}
     </div>
   );

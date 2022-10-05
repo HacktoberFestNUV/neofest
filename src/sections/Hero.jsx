@@ -1,4 +1,4 @@
-import RSVPButton from "./RSVPButton";
+import RSVPButton from "../components/RSVPButton";
 import React, { useEffect, useState } from "react";
 import "../styles/hero.css";
 
