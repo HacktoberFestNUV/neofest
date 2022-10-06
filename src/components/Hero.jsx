@@ -4,10 +4,15 @@ import "../styles/hero.css";
 
 function Hero(props) {
 
-  const [grayScale, setGrayScale] = useState('background-bw')
+  const isMobile = window.innerWidth < 815;
+  let default_bg = ''
+  if(!isMobile) default_bg = 'background-bw'
+  console.log(default_bg);
+
+  const [grayScale, setGrayScale] = useState(default_bg)
 
   const addGrayScale = () => {
-    if(!props.userPresent) setGrayScale('background-bw')
+    if(!props.userPresent && !isMobile) setGrayScale('background-bw')
   }
 
   const removeGrayScale = () => {
@@ -16,9 +21,13 @@ function Hero(props) {
 
   useEffect(() => {
     if(props.userPresent) setGrayScale('')
-    else setGrayScale('background-bw')
-  }, [props.userPresent])
+    else {
+      if(!isMobile)
+      setGrayScale('background-bw')
+    }
+  }, [props.userPresent, isMobile])
 
+  
   return (
     <>
       <div className={`background ${grayScale} flex flex-col w-screen justify-center items-center`} id="hero">
