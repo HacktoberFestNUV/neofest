@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c3c7062c.css",
-    "main.js": "/static/js/main.996aeb91.js",
+    "main.js": "/static/js/main.54adcf91.js",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "index.html": "/index.html",
     "main.c3c7062c.css.map": "/static/css/main.c3c7062c.css.map",
-    "main.996aeb91.js.map": "/static/js/main.996aeb91.js.map"
+    "main.54adcf91.js.map": "/static/js/main.54adcf91.js.map"
   },
   "entrypoints": [
     "static/css/main.c3c7062c.css",
-    "static/js/main.996aeb91.js"
+    "static/js/main.54adcf91.js"
   ]
 }
