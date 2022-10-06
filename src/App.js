@@ -7,6 +7,7 @@ import { auth } from "./firebase";
 // import FAQ from './components/FAQ';
 // import RSVPButton from './components/RSVPButton';
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -43,7 +44,7 @@ function App() {
       {/* <Header/> */}
       {!user && <Hero userPresent={userPresent}/>}
       {user && <Hero user={user} userPresent={userPresent} />}
-      {/* <FAQ/> */}
+      <Footer/>
     </div>
   );
 }
