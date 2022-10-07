@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function EventTitle(props) {
   return (
-    <div className='text-5xl mt-10'>{props.title}</div>
-  )
+    <div>
+      <div className="text-5xl text-center mt-10">{props.title}</div>
+      <div className="flex gap-[100px] justify-between">
+        <div className="text-xl mt-6">{props.date}</div>
+        <div className="text-xl mt-6">{props.time}</div>
+      </div>
+    </div>
+  );
 }
 
-export default EventTitle
+export default EventTitle;

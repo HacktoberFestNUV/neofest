@@ -4,20 +4,28 @@ import '../styles/eventimagecard.css'
 function EventImageCard(props) {
 
     const [grayScale, setGrayScale] = useState('grayscale()');
+    const [opacity, setOpacity] = useState('.6');
     
     const backgroundImage ={
         backgroundImage: `url(${props.image_path})`,
-        filter: `${grayScale}`
+        filter: `${grayScale}`,
+        opacity: `${opacity}`,
     }
 
     const onHover = () => {
-        props.updateTitle(props.image_title)
+        props.updateTitle(props.event_title)
+        props.updateDate(props.event_date)
+        props.updateTime(props.event_time)
         setGrayScale('')
+        setOpacity('')
     }
 
     const onLeave = () => {
         props.updateTitle('Events')
+        props.updateDate('')
+        props.updateTime('')
         setGrayScale('grayscale()')
+        setOpacity('.6')
     }
 
   return (
