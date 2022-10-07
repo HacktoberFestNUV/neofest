@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='absolute bottom-0 h-10 md:h-11 w-screen flex justify-evenly items-center text-white text-lg bg-black'>
+    <div className='fixed bottom-0 h-10 md:h-11 w-screen flex justify-evenly items-center text-white text-lg bg-black'>
         <h1 className=''>NeoFest 2022</h1>
         <h1><a className='text-[#FFEB34] md:text-white hover:text-[#FFEB34]' href="mailto:hacktoberfest@nuv.ac.in">Mail us</a></h1>
     </div>

@@ -3,35 +3,18 @@ import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase";
 // import { logout } from "./firebase";
-// import Header from './components/Header';
-// import FAQ from './components/FAQ';
-// import RSVPButton from './components/RSVPButton';
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-
+// import Header from './sections/Header';
+import FAQ from './sections/FAQ';
+import Hero from "./sections/Hero";
+import Events from "./sections/Events";
+// import PastEvents from "./sections/PastEvents";
+import About from "./sections/About";
+import Footer from "./sections/Footer";
 import "./App.css";
 
 function App() {
   const [user] = useAuthState(auth);
   const [userPresent, setUserPresent] = useState(false)
-  // const [email, setEmail] = useState('')
-  // const [name, setName] = useState('')
-
-  // async function handleSubmit(event) {
-  //   event.preventDefault();
-  //   try {
-  //     await addDoc(collection(database, "people"), {
-  //       name: name,
-  //       email: email,
-  //     });
-  //   } catch (error) {
-  //     alert(error);
-  //   }
-
-  //   setEmail("");
-  //   setName("");
-  //   console.log('clicked');
-  // }
 
   useEffect(() => {
     if(user) setUserPresent(true)
@@ -44,6 +27,10 @@ function App() {
       {/* <Header/> */}
       {!user && <Hero userPresent={userPresent}/>}
       {user && <Hero user={user} userPresent={userPresent} />}
+      <Events/>
+      {/* <PastEvents/> */}
+      <FAQ/>
+      <About/>
       <Footer/>
     </div>
   );

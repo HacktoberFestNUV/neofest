@@ -16,7 +16,7 @@ function RSVPButton(props) {
     }
 
   return (
-    <div onMouseEnter={props.removeGrayScale} onMouseLeave={props.addGrayScale} className="fixed md:top-[60%] md:left-[42.5%] md:w-[300px] top-[32%]" id="rsvp-button">
+    <div onMouseEnter={props.removeGrayScale} onMouseLeave={props.addGrayScale} className="absolute md:top-[60%] md:w-[300px] top-[32%]" id="rsvp-button">
       <Button
         style={{ height: "fit-content" }}
         variant="secondary"
