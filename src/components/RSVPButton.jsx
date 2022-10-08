@@ -13,7 +13,7 @@ function RSVPButton(props) {
       buttonDisabled=true
     }
     else{
-      buttonText = 'RSVP Now!'
+      buttonText = 'RSVP Now'
     }
 
   return (
@@ -42,7 +42,7 @@ function RSVPButton(props) {
         </div>
       )}
       <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-1 text-center">
-        Event details coming soon!
+        Register now with Google!
       </div>
     </div>
   );
