@@ -8,24 +8,24 @@ function Events() {
   const [eventTime, setEventTime] = useState('')
 
   let image_paths = [];
-  image_paths.push('https://images.pexels.com/photos/2860807/pexels-photo-2860807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
-  image_paths.push('https://images.pexels.com/photos/2860807/pexels-photo-2860807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
-  image_paths.push('https://images.pexels.com/photos/2860807/pexels-photo-2860807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+  image_paths.push('https://i.ibb.co/JrcnyDH/workshop.webp')
+  image_paths.push('https://i.ibb.co/2sJQPbG/talks.webp')
+  image_paths.push('https://i.ibb.co/fdW1HQ7/hackathon.webp')
 
   let event_titles = [];
-  event_titles.push('WorkShops')
+  event_titles.push('Workshops')
   event_titles.push('Talks')
   event_titles.push('Hackathon')
 
   let event_dates = [];
-  event_dates.push('14 October')
-  event_dates.push('15 October')
-  event_dates.push('16 October')
+  // event_dates.push('14 October')
+  // event_dates.push('15 October')
+  // event_dates.push('16 October')
 
   let event_times = [];
-  event_times.push('1pm Onwards')
-  event_times.push('2pm Onwards')
-  event_times.push('3pm Onwards')
+  // event_times.push('1pm Onwards')
+  // event_times.push('2pm Onwards')
+  // event_times.push('3pm Onwards')
 
   const updateTitle = (value) => {
     setEventTitle(value);    

@@ -39,6 +39,12 @@ const signInWithGoogle = async (event) => {
   }
 }
 
+const getRsvpCount = async () => {
+  const q = collection(database, 'users')
+  const docs = await getDocs(q)
+  return(docs._snapshot.docChanges.length);
+}
+
 // const logInWithEmailAndPassword = async (event, email, password) => {
 //   event.preventDefault();
 //   try {
@@ -89,6 +95,7 @@ export {
   database,
   auth,
   signInWithGoogle, 
+  getRsvpCount,
 //   logInWithEmailAndPassword, 
 //   registerUserWithEmailAndPassword,
 //   sendPasswordReset, 

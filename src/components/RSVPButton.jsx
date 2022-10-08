@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@cred/neopop-web/lib/components";
 import { signInWithGoogle } from "../firebase";
+// import  CountUp  from "react-countup";
 function RSVPButton(props) {
 
     let user = props.user
@@ -17,6 +18,9 @@ function RSVPButton(props) {
 
   return (
     <div onMouseEnter={props.removeGrayScale} onMouseLeave={props.addGrayScale} className="absolute md:top-[60%] md:w-[300px] top-[32%]" id="rsvp-button">
+      {/* <div className="text-white font-semibold text-lg flex justify-center items-center mb-2 text-center">
+        <p>RSVPED: <CountUp end={props.rsvpCount} duration={1} /></p>
+      </div> */}
       <Button
         style={{ height: "fit-content" }}
         variant="secondary"
