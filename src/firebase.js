@@ -1,17 +1,17 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, query, getDocs, collection, where, addDoc } from "firebase/firestore";
-import {GoogleAuthProvider, getAuth, signInWithPopup, signOut } from 'firebase/auth'
+import { GoogleAuthProvider, getAuth, signInWithPopup, signOut } from 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDdQAXbJBJ50d47Hh8LDhBGUbAHwb2VVpg",
-    authDomain: "neofest-e1055.firebaseapp.com",
-    projectId: "neofest-e1055",
-    storageBucket: "neofest-e1055.appspot.com",
-    messagingSenderId: "1080635997977",
-    appId: "1:1080635997977:web:a91b11980a73dcfcc0cf88",
-    measurementId: "G-9MGYCH5ST8"
-  };
-  
+  apiKey: "AIzaSyDdQAXbJBJ50d47Hh8LDhBGUbAHwb2VVpg",
+  authDomain: "neofest-e1055.firebaseapp.com",
+  projectId: "neofest-e1055",
+  storageBucket: "neofest-e1055.appspot.com",
+  messagingSenderId: "1080635997977",
+  appId: "1:1080635997977:web:a91b11980a73dcfcc0cf88",
+  measurementId: "G-9MGYCH5ST8"
+};
+
 
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
@@ -34,9 +34,15 @@ const signInWithGoogle = async (event) => {
       })
     }
   }
-  catch(error) {
+  catch (error) {
     alert(error.message);
   }
+}
+
+const getRsvpCount = async () => {
+  const q = collection(database, 'users')
+  const docs = await getDocs(q)
+  return(docs._snapshot.docChanges.length);
 }
 
 // const logInWithEmailAndPassword = async (event, email, password) => {
@@ -85,13 +91,13 @@ const logout = () => {
   signOut(auth);
 }
 
-export { 
-  database,
+export {
   auth,
-  signInWithGoogle, 
-//   logInWithEmailAndPassword, 
-//   registerUserWithEmailAndPassword,
-//   sendPasswordReset, 
-  logout 
+  signInWithGoogle,
+  getRsvpCount,
+  //   logInWithEmailAndPassword, 
+  //   registerUserWithEmailAndPassword,
+  //   sendPasswordReset, 
+  logout
 };
 

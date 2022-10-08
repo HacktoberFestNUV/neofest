@@ -1,18 +1,21 @@
 import RSVPButton from "../components/RSVPButton";
 import React, { useEffect, useState } from "react";
 import "../styles/hero.css";
+import { getRsvpCount } from "../firebase";
+import CountUp from 'react-countup';
 
 function Hero(props) {
 
+  const [rsvpCount, setRsvpCount] = useState(0);
   const isMobile = window.innerWidth < 815;
   let default_bg = ''
-  if(!isMobile) default_bg = 'background-bw'
+  if (!isMobile) default_bg = 'background-bw'
   console.log(default_bg);
 
   const [grayScale, setGrayScale] = useState(default_bg)
 
   const addGrayScale = () => {
-    if(!props.userPresent && !isMobile) setGrayScale('background-bw')
+    if (!props.userPresent && !isMobile) setGrayScale('background-bw')
   }
 
   const removeGrayScale = () => {
@@ -20,14 +23,19 @@ function Hero(props) {
   }
 
   useEffect(() => {
-    if(props.userPresent) setGrayScale('')
+    if (props.userPresent) setGrayScale('')
     else {
-      if(!isMobile)
-      setGrayScale('background-bw')
+      if (!isMobile)
+        setGrayScale('background-bw')
     }
   }, [props.userPresent, isMobile])
 
-  
+  useEffect(async () => {
+    const data = await getRsvpCount()
+    setRsvpCount(data)
+  }, []);
+
+
   return (
     <>
       <div className={`background ${grayScale} flex flex-col w-screen justify-center items-center`} id="hero">
@@ -39,9 +47,9 @@ function Hero(props) {
         </h1>
         <div className="invisible md:visible" id="clipart-1"></div>
         <div className="invisible md:visible" id="clipart-2"></div>
-
       </div>
-      <RSVPButton user={props.user} addGrayScale={addGrayScale} removeGrayScale={removeGrayScale}/>
+      <button type="button" class="absolute top-10 right-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-lg shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-bold rounded-lg text-sm px-7 py-2.5 text-center mr-2 mb-2">RSVPED: <CountUp end={rsvpCount} duration={1} /></button>
+      <RSVPButton user={props.user} addGrayScale={addGrayScale} removeGrayScale={removeGrayScale} rsvpCount={rsvpCount} />
     </>
   );
 }
