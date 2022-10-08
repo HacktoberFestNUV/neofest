@@ -26,18 +26,18 @@ function RSVPButton(props) {
         fullWidth={true}
         colorConfig={{backgroundColor: '#FFEB34', borderColor: "black", color: 'black', edgeColors:{left:'#7B6F00', right:'#7B6F00', top:'#7B6F00', bottom:'#7B6F00'}, disabledColors:{backgroundColor:'#121212', borderColor:'#3D3D3D', edgeColors:{left:'#3D3D3D', right:'#3D3D3D', top:'#3D3D3D', bottom:'#3D3D3D'}}}}
         spacingConfig={{padding: '5px', height:'60px' }}
-        textStyle={{fontSize:25, fontWeight:600}}
+        textStyle={{fontSize:20, fontWeight:600}}
         disabled={buttonDisabled}
         onClick={signInWithGoogle}
       >
         {buttonText}
       </Button>
       {user && (
-        <div className="text-white font-semibold text-lg flex justify-center items-center mt-4 text-center">
+        <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-4 text-center">
             {`See you at NeoFest, ${user.displayName}!`}
         </div>
       )}
-      <div className="text-white font-semibold text-lg flex justify-center items-center mt-4 text-center">
+      <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-1 text-center">
         Event details coming soon!
       </div>
     </div>

@@ -9,7 +9,8 @@ import Hero from "./sections/Hero";
 import Events from "./sections/Events";
 // import PastEvents from "./sections/PastEvents";
 import About from "./sections/About";
-import Footer from "./sections/Footer";
+// import Footer from "./sections/Footer";
+// import EventCarousel from "./sections/EventCarousel";
 import "./App.css";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   }, [user]);
 
   return (
-    <div className="w-screen h-fitcontent flex flex-col items-center overflow-auto">
+    <div className="w-screen h-fitcontent flex flex-col items-center overflow-x-hidden">
       {/* <button onClick={logout}>Sign out</button> */}
       {/* <Header/> */}
       {!user && <Hero userPresent={userPresent}/>}
@@ -31,7 +32,8 @@ function App() {
       {/* <PastEvents/> */}
       <FAQ/>
       <About/>
-      <Footer/>
+      {/* <EventCarousel/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

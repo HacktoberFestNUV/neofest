@@ -1,8 +1,10 @@
 .background {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url("../assets/neofest-3.webp");
   background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
 }
 
 .background-bw {
@@ -24,6 +26,28 @@
   top: 65%;
   left: -5%;
   transform: rotate(-10.28deg)
+}
+#clipart-3{
+  background-image: url('../assets/clipart-1.png');
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 62.5%;
+  left: -15%;
+  transform: rotate(-10.28deg);
+}
+#clipart-4{
+  background-image: url('../assets/clipart-1.png');
+  width: 375px;
+  height: 375px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 62.5%;
+  left: -15%;
+  transform: rotate(-10.28deg);
 }
 
 #clipart-2{

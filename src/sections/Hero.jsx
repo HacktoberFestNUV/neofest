@@ -30,15 +30,25 @@ function Hero(props) {
   
   return (
     <>
-      <div className={`background ${grayScale} flex flex-col w-screen justify-center items-center`} id="hero">
+      <div className={`background ${grayScale} flex flex-col w-full justify-center items-center`} id="hero">
         <h1
           className="absolute bg-transparent text-transparent bg-clip-text font-bold text-[4rem] text-center top-[20%] bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] md:invisible"
           id="mobile-text"
         >
           NeoFest
         </h1>
-        <div className="invisible md:visible" id="clipart-1"></div>
-        <div className="invisible md:visible" id="clipart-2"></div>
+        {!isMobile && (
+          <>
+            <div className="" id="clipart-1"></div>
+            <div className="" id="clipart-2"></div>
+          </>
+        )}
+        {/* {isMobile && window.innerHeight >= 745 && (
+          <div className="" id="clipart-3"></div>
+        )}
+        {isMobile && window.innerHeight >= 800 && (
+          <div className="" id="clipart-4"></div>
+        )} */}
 
       </div>
       <RSVPButton user={props.user} addGrayScale={addGrayScale} removeGrayScale={removeGrayScale}/>
