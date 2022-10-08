@@ -36,14 +36,15 @@ function RSVPButton(props) {
       >
         {buttonText}
       </Button>
-      {user && (
+      {user ? (
         <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-4 text-center">
-            {`See you at NeoFest, ${user.displayName}!`}
+          {`See you at NeoFest, ${user.displayName}!`}
         </div>
-      )}
-      <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-1 text-center">
-        Register now with Google!
-      </div>
+      ) :
+        <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-1 text-center">
+          Register now with Google!
+        </div>
+      }
     </div>
   );
 }
