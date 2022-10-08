@@ -40,30 +40,36 @@ function FAQ() {
   faqs.push({question: 'When and where will be the event?', answer: 'The Event is going to be held on 15th and 16th of October, in the Auditorium(5th Floor) of Navrachana University '})
   faqs.push({question: 'How long will be the event?', answer: 'It is a two-day event that will consist of various executive talks, workshops, and hackathons to engage the participants throughout the event.'})
   faqs.push({question: 'How many participants will be there?', answer: '150+ Participants will be delivering their inputs to have a better grip on open-source.'})
-  faqs.push({question: 'How many Members can participate in 1 team during hackathon?', answer: '4-5 members can participate in 1 team.'})
+  faqs.push({question: 'How many Members can participate in 1 team during hackathon?', answer: '3-4 members can participate in 1 team.'})
   faqs.push({question: 'How to contact us?', answer: 'For contacting us, drop a mail at hacktoberfest@nuv.ac.in , we’re excited to hear from you.'})
 
   return (
     <>
-    <div className="w-screen h-fitcontent md:h-[100vh] flex flex-col gap-4 md:gap-0 justify-center items-center text-white bg-[#170F1E] font-heading font-extrabold">
-      <h1 className="md:text-6xl text-4xl text-center">F A Q s</h1>
-      <div className="w-screen md:h-[80%] h-fitcontent flex px-2 flex-col gap-4 justify-center items-center">
-        {faqs.map((item, index) => (
-          <div className="px-4 md:w-[50%] w-full bg-[#fffefe] rounded-2xl">
-            <Accordion open={open === index+1} icon={<Icon id={index+1} open={open}/>} animate={customAnimation}>
-              <AccordionHeader onClick={() => handleOpen(index+1)} className='md:text-2xl text-md'>
-                {item.question}
-              </AccordionHeader>
-              <AccordionBody className='md:text-[16px] text-sm'>
-                {item.answer}
-              </AccordionBody>
-            </Accordion>
-          </div>
-        ))}
+      <div className="w-screen h-fit flex flex-col gap-4 md:gap-0 justify-center items-center text-white bg-[#170F1E] font-heading font-extrabold">
+        <h1 className="md:text-6xl text-4xl text-center ">FAQs</h1>
+        <div className="w-screen h-fit flex px-2 flex-col gap-4 justify-center items-center my-8">
+          {faqs.map((item, index) => (
+            <div className="px-4 lg:w-[50%] sm:w-[75%] w-[85%] bg-[#fffefe] rounded-2xl">
+              <Accordion
+                open={open === index + 1}
+                icon={<Icon id={index + 1} open={open} />}
+                animate={customAnimation}
+              >
+                <AccordionHeader
+                  onClick={() => handleOpen(index + 1)}
+                  className="md:text-2xl text-left text-md"
+                >
+                  {item.question}
+                </AccordionHeader>
+                <AccordionBody className="md:text-[16px] text-sm">
+                  {item.answer}
+                </AccordionBody>
+              </Accordion>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
     </>
-
   );
 }
 
