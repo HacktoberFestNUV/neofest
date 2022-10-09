@@ -15,25 +15,27 @@ function About() {
         the participants throughout the event.
       </div>
       <div className="flex justify-center items-center flex-col w-full">
-        <h1 className="text-4xl font-bold my-4">Connect With Community</h1>
-        <div className="my-3 flex justify-evenly items-center w-1/2">
+        <h1 className="text-4xl font-bold my-4 text-center">
+          Connect With Community
+        </h1>
+        <div className="my-3 flex justify-evenly items-center lg:w-1/2 w-4/5 flex-wrap">
           <a
             href="https://discord.gg/CajCTnMcjD"
-            className="flex p-2 justify-between items-center w-32  rounded-md bg-[#30353f] hover:scale-110 transition-all ease-in-out duration-150"
+            className="flex p-2 justify-between items-center w-fit lg:w-32 rounded-md bg-[#30353f] hover:scale-110 transition-all ease-in-out duration-150"
             target="_blank"
             rel="noreferrer"
           >
             <img src="./discord.svg" alt="discord" />
-            Discord
+            <span className="hidden lg:inline">Discord</span>
           </a>
           <a
             href="https://linktr.ee/neofest"
-            className="flex p-2 justify-between items-center w-32  rounded-md bg-[#30353f] hover:scale-110 transition-all ease-in-out duration-150"
+            className="flex p-2 justify-between items-center w-fit lg:w-32 rounded-md bg-[#30353f] hover:scale-110 transition-all ease-in-out duration-150"
             target="_blank"
             rel="noreferrer"
           >
             <img src="./linktree.svg" alt="linktree" />
-            Linktree
+            <span className="hidden lg:inline">Linktree</span>
           </a>
           <a
             href="https://form.typeform.com/to/ZsWJTT4F"
@@ -41,8 +43,8 @@ function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./typeform.png" alt="form" className="w-12 h-12" />
-            CFP Form
+            <img src="./typeform.png" alt="form" className="w-11 h-11" />
+            <span className="hidden lg:inline">CFP Form</span>
           </a>
         </div>
       </div>
