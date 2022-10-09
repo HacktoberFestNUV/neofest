@@ -7,6 +7,7 @@ import { auth } from "./firebase";
 import FAQ from './sections/FAQ';
 import Hero from "./sections/Hero";
 import Events from "./sections/Events";
+import Timeline from "./sections/Timeline";
 // import PastEvents from "./sections/PastEvents";
 import About from "./sections/About";
 // import Footer from "./sections/Footer";
@@ -30,6 +31,7 @@ function App() {
       {user && <Hero user={user} userPresent={userPresent} />}
       <Events/>
       {/* <PastEvents/> */}
+      <Timeline/>
       <FAQ/>
       <About/>
       {/* <EventCarousel/> */}

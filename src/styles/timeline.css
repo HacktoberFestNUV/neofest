@@ -1,0 +1,6 @@
+#timeline-img{
+    content: url('../assets/Timeline.png');
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}

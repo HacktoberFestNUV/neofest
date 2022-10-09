@@ -1,11 +1,21 @@
-.background {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../assets/neofest-3.webp");
-  background-size: cover;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
+@media only screen and (min-width: 768px) {
+  .background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/neofest-3.webp");
+    background-size: cover;
+  }
 }
+
+@media only screen and (max-width: 768px){
+  .background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/neofest-2.webp");
+    background-size: cover;
+  }
+}
+
 
 .background-bw {
   filter: grayscale();
@@ -25,18 +35,20 @@
   position: absolute;
   top: 65%;
   left: -5%;
-  transform: rotate(-10.28deg)
+  transform: rotate(-10.28deg);
+
 }
 #clipart-3{
   background-image: url('../assets/clipart-1.png');
-  width: 350px;
-  height: 350px;
+  width: 90%;
+  height: 40%;
   background-size: cover;
   background-position: center;
   position: absolute;
   top: 62.5%;
-  left: -15%;
+  left: -18%;
   transform: rotate(-10.28deg);
+  border: 2px solid red;
 }
 #clipart-4{
   background-image: url('../assets/clipart-1.png');

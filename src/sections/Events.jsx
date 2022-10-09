@@ -38,7 +38,7 @@ function Events() {
   }
 
   return (
-    <div className="w-screen h-[100vh] flex flex-col justify-center items-center bg-[#170F1E]">
+    <div className="w-screen h-fitcontent py-6 md:py-0 md:h-[95vh] flex flex-col justify-center items-center bg-[#170F1E]">
       <div className="w-full flex justify-center items-center ">
         {image_paths.map((path, index) => {
           return <EventImageCard key={index} image_path={path} event_title={event_titles[index]} event_date={event_dates[index]} event_time={event_times[index]} updateTitle={updateTitle} updateDate={updateDate} updateTime={updateTime}/>
