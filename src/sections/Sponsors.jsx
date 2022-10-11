@@ -4,7 +4,7 @@ import '../styles/sponsors.css'
 function Sponsors() {
   return (
 <div className="w-screen h-fitcontent text-white pt-8 pb-8 flex flex-col justify-center items-center md:gap-2 gap-4 bg-[#170F1E]">
-      <div className=" w-full mb-4 md:mb-16 flex justify-center items-center text-4xl md:text-6xl">
+      <div className=" w-full mb-4 md:mb-20 flex justify-center items-center text-4xl md:text-6xl">
         <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Sponsors
         </h1>
@@ -15,7 +15,7 @@ function Sponsors() {
         </h1>
       </div>
 
-      <div className="h-fitcontent flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-center flex-wrap text-lg w-[80%] text-center" id='sponsor-box-1'>
+      <div className="h-fitcontent flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-center flex-wrap text-lg w-[75%] md:w-[100%] text-center" id='sponsor-box-1'>
         <div className='md:w-1/2 w-full flex flex-col justify-center items-center gap-4'>
             <h1 className='text-base md:text-2xl font-heading font-medium text-[#FABAA4]'>Title Sponsor</h1>
             <div>
@@ -35,7 +35,7 @@ function Sponsors() {
         </div>
       </div>
 
-      <div className="w-full md:mt-16 mt-10 flex justify-center items-center">
+      <div className="w-full md:mt-20 mt-10 flex justify-center items-center">
         <h1 className="text-2xl md:text-4xl text-center font-heading bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Supported by
         </h1>
