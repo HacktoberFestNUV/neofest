@@ -3,14 +3,14 @@ import '../styles/sponsors.css'
 
 function Sponsors() {
   return (
-<div className="w-screen h-fitcontent text-white pt-4 pb-4 flex flex-col justify-center items-center md:gap-2 gap-4 bg-[#170F1E]">
+<div className="w-screen h-fitcontent text-white pt-8 pb-8 flex flex-col justify-center items-center md:gap-2 gap-4 bg-[#170F1E]">
       <div className=" w-full mb-4 md:mb-16 flex justify-center items-center text-4xl md:text-6xl">
         <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Sponsors
         </h1>
       </div>
       <div className=" w-full flex justify-center items-center">
-        <h1 className="text-4xl md:text-4xl text-center font-heading bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
+        <h1 className="text-2xl md:text-4xl text-center font-heading bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Powered by
         </h1>
       </div>
@@ -22,13 +22,13 @@ function Sponsors() {
                 <img src="" alt="" id='roundtech'/>
             </div>
         </div>
-        <div className='md:w-1/2 w-full flex flex-col justify-center items-center gap-4'>
+        <div className='md:w-1/2 w-full flex flex-col justify-center items-center gap-4 '>
             <h1 className='text-base md:text-2xl font-heading font-medium text-[#FABAA4]'>Ecosystem Sponsors</h1>
             <div className='w-full flex justify-center items-center gap-6 md:gap-0 flex-wrap'>
-                <div className='md:w-1/2 w-[200px]'>
+                <div className='md:w-1/2 w-[200px] flex justify-center items-center'>
                     <img src="" alt="" id='devfolio'/>
                 </div>
-                <div className='md:w-1/2 w-[200px]'>
+                <div className='md:w-1/2 w-[200px] flex justify-center items-center'>
                     <img src="" alt="" id='polygon'/>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function Sponsors() {
       </div>
 
       <div className="w-full md:mt-16 mt-10 flex justify-center items-center">
-        <h1 className="text-3xl md:text-4xl text-center font-heading bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
+        <h1 className="text-2xl md:text-4xl text-center font-heading bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Supported by
         </h1>
       </div>
