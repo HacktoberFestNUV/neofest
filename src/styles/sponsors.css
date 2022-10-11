@@ -1,0 +1,26 @@
+#roundtech{
+    content: url('../assets/roundtechsquare.webp');
+}
+
+#devfolio{
+    content: url('../assets/Devfolio_Logo-White.webp');
+}
+
+#polygon{
+    content: url('../assets/Polygon_Logo-White.webp');
+}
+#replit{
+    content: url('../assets/Replit-Dark-Background.webp');
+    width: 75%;
+
+}
+#solana{
+    content: url('../assets/Solana_Dark.webp');
+    width: 85%;
+
+
+}
+#filecoin{
+    content: url('../assets/Filecoin_White.webp');
+    width: 75%;
+}

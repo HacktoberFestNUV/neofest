@@ -17,12 +17,12 @@ function Events() {
   event_titles.push('Talks')
   event_titles.push('Hackathon')
 
-  let event_dates = [];
+  // let event_dates = [];
   // event_dates.push('14 October')
   // event_dates.push('15 October')
   // event_dates.push('16 October')
 
-  let event_times = [];
+  // let event_times = [];
   // event_times.push('1pm Onwards')
   // event_times.push('2pm Onwards')
   // event_times.push('3pm Onwards')
@@ -38,10 +38,10 @@ function Events() {
   }
 
   return (
-    <div className="w-screen h-fitcontent py-6 md:py-0 md:h-[95vh] flex flex-col justify-center items-center bg-[#170F1E]">
+    <div className="w-screen h-fitcontent pt-10 md:py-4 md:h-[95vh] flex flex-col justify-center items-center bg-[#170F1E]">
       <div className="w-full flex justify-center items-center ">
         {image_paths.map((path, index) => {
-          return <EventImageCard key={index} image_path={path} event_title={event_titles[index]} event_date={event_dates[index]} event_time={event_times[index]} updateTitle={updateTitle} updateDate={updateDate} updateTime={updateTime}/>
+          return <EventImageCard key={index} image_path={path} event_title={event_titles[index]} updateTitle={updateTitle} updateDate={updateDate} updateTime={updateTime}/>
         })}
       </div>
     <EventTitle title={eventTitle} date={eventDate} time={eventTime}/>

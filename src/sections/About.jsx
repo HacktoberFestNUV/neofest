@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-screen md:h-[90vh] h-fitcontent md:[60vh] text-white pt-4 flex flex-col justify-evenly items-center gap-4 bg-black">
+    <div className="w-screen md:h-[90vh] h-fitcontent text-white pt-4 flex flex-col justify-evenly items-center gap-4 bg-[#170F1E]">
       <div className=" w-full flex justify-center items-center text-4xl md:text-6xl font-extrabold font-heading">
         <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           About Us
@@ -50,7 +50,7 @@ function About() {
           </a>
         </div>
       </div>
-      <div className="h-fitcontent text-sm md:text-lg w-[95%] mb-4 text-center ">
+      <div className="h-fitcontent text-sm md:text-lg w-[95%] mb-4 text-center">
         Made with ❤️ by HacktoberFest NUV Team
       </div>
     </div>

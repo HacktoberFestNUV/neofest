@@ -27,49 +27,30 @@
 }
 
 #clipart-1{
-  background-image: url('../assets/clipart-1.png');
-  width: 450px;
-  height: 450px;
-  background-size: cover;
-  background-position: center;
+  content: url('../assets/clipart-1.png');
+  width: 23.5%;
+  height: auto;
   position: absolute;
   top: 65%;
   left: -5%;
   transform: rotate(-10.28deg);
-
 }
-#clipart-3{
-  background-image: url('../assets/clipart-1.png');
-  width: 90%;
-  height: 40%;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 62.5%;
-  left: -18%;
-  transform: rotate(-10.28deg);
-  border: 2px solid red;
-}
-#clipart-4{
-  background-image: url('../assets/clipart-1.png');
-  width: 375px;
-  height: 375px;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 62.5%;
-  left: -15%;
-  transform: rotate(-10.28deg);
-}
-
-#clipart-2{
-  background-image: url('../assets/clipart-2.png');
-  width: 450px;
-  height: 450px;
-  background-size: cover;
-  background-position: center;
+/* #clipart-3{
+  content: url('../assets/clipart-1.png');
+  width: 80%;
+  height: auto;
   position: absolute;
   top: 65%;
-  right: -3%;
-  transform: rotate(6.28deg);
+  left: -10%;
+  transform: rotate(-10.28deg);
+} */
+
+#clipart-2{
+  content: url('../assets/clipart-2.png');
+  width: 23.5%;
+  height: auto;
+  position: absolute;
+  top: 65%;
+  right: -5%;
+  transform: rotate(10.28deg);
 }

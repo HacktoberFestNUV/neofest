@@ -51,12 +51,12 @@ function Hero(props) {
         </h1>
         {!isMobile && (
           <>
-            <div className="" id="clipart-1"></div>
-            <div className="" id="clipart-2"></div>
+            <div className=""><img src="" alt="" id="clipart-1"/></div>
+            <div className=""><img src="" alt="" id="clipart-2"/></div>
           </>
         )}
         {/* {isMobile && (
-          <div className="" id="clipart-3"></div>
+        <div className=""><img src="" alt="" id="clipart-3"/></div>
         )} */}
       </div>
       <div

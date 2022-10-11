@@ -35,7 +35,7 @@ const signInWithGoogle = async (event) => {
     }
   }
   catch(error) {
-    alert(error.message);
+    // alert(error.message);
   }
 }
 

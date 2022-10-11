@@ -6,10 +6,11 @@ import { auth } from "./firebase";
 // import Header from './sections/Header';
 import FAQ from './sections/FAQ';
 import Hero from "./sections/Hero";
-import Events from "./sections/Events";
+// import Events from "./sections/Events";
 import Timeline from "./sections/Timeline";
 // import PastEvents from "./sections/PastEvents";
 import About from "./sections/About";
+import Sponsors from "./sections/Sponsors";
 // import Footer from "./sections/Footer";
 // import EventCarousel from "./sections/EventCarousel";
 import "./App.css";
@@ -29,10 +30,11 @@ function App() {
       {/* <Header/> */}
       {!user && <Hero userPresent={userPresent}/>}
       {user && <Hero user={user} userPresent={userPresent} />}
-      <Events/>
+      {/* <Events/> */}
       {/* <PastEvents/> */}
       <Timeline/>
       <FAQ/>
+      <Sponsors/>
       <About/>
       {/* <EventCarousel/> */}
       {/* <Footer/> */}
