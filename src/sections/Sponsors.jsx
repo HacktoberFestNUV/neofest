@@ -3,7 +3,7 @@ import '../styles/sponsors.css'
 
 function Sponsors() {
   return (
-<div className="w-screen h-fitcontent text-white pt-8 pb-8 flex flex-col justify-center items-center md:gap-2 gap-4 bg-[#170F1E]">
+<div className="w-screen h-fit text-white pt-8 pb-8 flex flex-col justify-center items-center md:gap-2 gap-4 bg-[#170F1E]">
       <div className=" w-full mb-4 md:mb-20 flex justify-center items-center text-4xl md:text-6xl">
         <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           Sponsors

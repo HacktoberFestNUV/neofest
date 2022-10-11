@@ -14,6 +14,7 @@ import Sponsors from "./sections/Sponsors";
 // import Footer from "./sections/Footer";
 // import EventCarousel from "./sections/EventCarousel";
 import "./App.css";
+import Hackathon from "./sections/Hackathon";
 
 function App() {
   const [user] = useAuthState(auth);
@@ -32,6 +33,7 @@ function App() {
       {user && <Hero user={user} userPresent={userPresent} />}
       {/* <Events/> */}
       {/* <PastEvents/> */}
+      <Hackathon />
       <Timeline/>
       <FAQ/>
       <Sponsors/>
