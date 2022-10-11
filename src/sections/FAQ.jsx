@@ -45,11 +45,11 @@ function FAQ() {
 
   return (
     <>
-      <div className="w-screen h-fitcontent md:pt-6 pt-4 flex flex-col gap-4 md:gap-0 justify-center items-center text-white bg-[#170F1E] font-heading font-extrabold">
-        <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">FAQs</h1>
+      <div className="w-screen h-fit flex flex-col gap-4 md:gap-0 justify-center items-center text-white bg-[#170F1E] font-heading font-extrabold">
+        <h1 className="text-4xl md:text-6xl text-center mt-8">FAQs</h1>
         <div className="w-screen h-fit flex px-2 flex-col gap-4 justify-center items-center my-8">
           {faqs.map((item, index) => (
-            <div className="px-4 lg:w-[50%] sm:w-[75%] w-[85%] bg-[#fffefe] rounded-2xl">
+            <div className="px-4 lg:w-[50%] sm:w-[75%] w-[85%] bg-[#382b44] rounded-2xl">
               <Accordion
                 open={open === index + 1}
                 icon={<Icon id={index + 1} open={open} />}
@@ -57,11 +57,11 @@ function FAQ() {
               >
                 <AccordionHeader
                   onClick={() => handleOpen(index + 1)}
-                  className="md:text-2xl text-left text-md"
+                  className="md:text-xl font-thin text-left text-md hover:text-[#DACFE3] text-[#FFFEFE]"
                 >
                   {item.question}
                 </AccordionHeader>
-                <AccordionBody className="md:text-[16px] text-sm">
+                <AccordionBody className="md:text-[16px] text-sm text-[#FFFEFE]">
                   {item.answer}
                 </AccordionBody>
               </Accordion>
