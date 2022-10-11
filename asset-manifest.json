@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.098203a4.css",
-    "main.js": "/static/js/main.2968b872.js",
+    "main.css": "/static/css/main.1d244a06.css",
+    "main.js": "/static/js/main.6d94e372.js",
     "static/media/Timeline.png": "/static/media/Timeline.9dbbfed38fc088597199.png",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
     "static/media/clipart-2.png": "/static/media/clipart-2.7495d08d0d0b77065cbe.png",
     "static/media/clipart-1.png": "/static/media/clipart-1.660173ac7c4e340397a2.png",
+    "static/media/Replit-Dark-Background.webp": "/static/media/Replit-Dark-Background.4c5be2344acbc0b1c474.webp",
+    "static/media/Solana_Dark.webp": "/static/media/Solana_Dark.90cfadde61f6484af58e.webp",
+    "static/media/roundtechsquare.webp": "/static/media/roundtechsquare.8928c5f583be17028739.webp",
+    "static/media/Filecoin_White.webp": "/static/media/Filecoin_White.f38baa3178beea941f29.webp",
+    "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
-    "main.098203a4.css.map": "/static/css/main.098203a4.css.map",
-    "main.2968b872.js.map": "/static/js/main.2968b872.js.map"
+    "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
+    "main.1d244a06.css.map": "/static/css/main.1d244a06.css.map",
+    "main.6d94e372.js.map": "/static/js/main.6d94e372.js.map"
   },
   "entrypoints": [
-    "static/css/main.098203a4.css",
-    "static/js/main.2968b872.js"
+    "static/css/main.1d244a06.css",
+    "static/js/main.6d94e372.js"
   ]
 }
