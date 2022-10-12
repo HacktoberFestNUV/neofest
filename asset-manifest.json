@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f85ed71.css",
-    "main.js": "/static/js/main.fdc082e8.js",
-    "static/media/Timeline.png": "/static/media/Timeline.9dbbfed38fc088597199.png",
+    "main.css": "/static/css/main.b031c0a8.css",
+    "main.js": "/static/js/main.e9fada39.js",
+    "static/media/Timeline.webp": "/static/media/Timeline.5a2158e0d6c42c960209.webp",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
     "static/media/clipart-2.png": "/static/media/clipart-2.7495d08d0d0b77065cbe.png",
@@ -14,11 +14,11 @@
     "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
-    "main.8f85ed71.css.map": "/static/css/main.8f85ed71.css.map",
-    "main.fdc082e8.js.map": "/static/js/main.fdc082e8.js.map"
+    "main.b031c0a8.css.map": "/static/css/main.b031c0a8.css.map",
+    "main.e9fada39.js.map": "/static/js/main.e9fada39.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f85ed71.css",
-    "static/js/main.fdc082e8.js"
+    "static/css/main.b031c0a8.css",
+    "static/js/main.e9fada39.js"
   ]
 }
