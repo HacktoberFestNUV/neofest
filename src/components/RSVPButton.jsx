@@ -76,7 +76,7 @@ function RSVPButton(props) {
       <div
         className="apply-button h-[44px] w-[312px]"
         data-hackathon-slug="neohacks"
-        data-button-theme="dark-inverted"
+        data-button-theme="light"
         // style="height: '44px'; width: '312px'"
       ></div>
 
