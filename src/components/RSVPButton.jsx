@@ -28,13 +28,12 @@ function RSVPButton(props) {
     }
 
   return (
-    // <div
-    //   onMouseEnter={props.removeGrayScale}
-    //   onMouseLeave={props.addGrayScale}
-    //   className="absolute md:top-[60%] md:w-[300px] top-[32%]"
-    //   id="rsvp-button"
-    // >
-      /* <div className="text-white font-semibold text-lg flex justify-center items-center mb-2 text-center">
+    <div
+      onMouseEnter={props.removeGrayScale}
+      onMouseLeave={props.addGrayScale}
+      className="absolute md:top-[60%] md:w-[300px] top-[32%]"
+    >
+      {/* <div className="text-white font-semibold text-lg flex justify-center items-center mb-2 text-center">
         <p>RSVPED: <CountUp end={props.rsvpCount} duration={1} /></p>
       </div> 
       <Button
@@ -71,7 +70,7 @@ function RSVPButton(props) {
         onClick={signInWithGoogle}
       >
         {buttonText}
-      </Button> */
+      </Button>  */}
 
       <div
         className="apply-button h-[44px] w-[312px]"
@@ -80,7 +79,7 @@ function RSVPButton(props) {
         // style="height: '44px'; width: '312px'"
       ></div>
 
-      /* {user ? (
+      {/* {user ? (
         <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-4 text-center">
           {`See you at NeoFest, ${user.displayName}!`}
         </div>
@@ -88,8 +87,8 @@ function RSVPButton(props) {
         <div className="text-white font-semibold md:text-lg text-xs flex justify-center items-center mt-1 text-center">
           Register now with Google!
         </div>
-      )} */
-    // </div>
+      )} */}
+    </div>
   );
 }
 
