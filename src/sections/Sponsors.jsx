@@ -19,17 +19,23 @@ function Sponsors() {
         <div className='md:w-1/2 w-full flex flex-col justify-center items-center gap-4'>
             <h1 className='text-base md:text-2xl font-heading font-medium text-[#FABAA4]'>Title Sponsor</h1>
             <div>
+              <a href="https://roundtechsquare.com/" target={'_blank'} rel='noreferrer'>
                 <img src="" alt="" id='roundtech'/>
+              </a>
             </div>
         </div>
         <div className='md:w-1/2 w-full flex flex-col justify-center items-center gap-4 '>
             <h1 className='text-base md:text-2xl font-heading font-medium text-[#FABAA4]'>Ecosystem Sponsors</h1>
             <div className='w-full flex justify-center items-center gap-6 md:gap-0 flex-wrap'>
                 <div className='md:w-1/2 w-[200px] flex justify-center items-center'>
+                  <a href="https://devfolio.co/" target={'_blank'} rel='noreferrer'>
                     <img src="" alt="" id='devfolio'/>
+                  </a>
                 </div>
                 <div className='md:w-1/2 w-[200px] flex justify-center items-center'>
+                  <a href="https://polygon.technology/" target={'_blank'} rel='noreferrer'>
                     <img src="" alt="" id='polygon'/>
+                  </a>
                 </div>
             </div>
         </div>
@@ -43,13 +49,19 @@ function Sponsors() {
 
       <div className="h-fitcontent flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
         <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://replit.com/~" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='replit'/>
+          </a>
         </div>
         <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://solana.com/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='solana'/>
+          </a>
         </div>
         <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://filecoin.io/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='filecoin'/>
+          </a>
         </div>
       </div>
     </div>

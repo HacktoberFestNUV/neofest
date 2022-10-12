@@ -2,11 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-screen md:h-[90vh] h-fit text-white pt-4 flex flex-col justify-evenly items-center bg-[#170F1E]">
+    <div className="w-screen md:h-[90vh] h-fitcontent text-white pt-4 flex flex-col justify-evenly items-center gap-4 bg-[#170F1E]">
+      <div className=" w-full flex justify-center items-center text-4xl md:text-6xl font-extrabold font-heading">
         <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
           About Us
         </h1>
-      <div className="h-fit font-thin text-lg md:text-xl w-[80%] md:w-[70%] lg:w-[50%] -mt-8 text-center">
+      </div>
+      <div className="h-fit font-thin text-lg md:text-xl w-[80%] md:w-[70%] lg:w-[50%] lg:-mt-8 text-center">
         We students of Navrachana University, Vadodara are organising a
         technical event “NEOFEST” in accordance to HacktoberFest’22. This event
         generally focuses on the Open-Source environment which will provide an
