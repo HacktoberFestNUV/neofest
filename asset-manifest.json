@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d455066.css",
-    "main.js": "/static/js/main.0dee7cd2.js",
+    "main.css": "/static/css/main.8f85ed71.css",
+    "main.js": "/static/js/main.fdc082e8.js",
     "static/media/Timeline.png": "/static/media/Timeline.9dbbfed38fc088597199.png",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
@@ -14,11 +14,11 @@
     "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
-    "main.8d455066.css.map": "/static/css/main.8d455066.css.map",
-    "main.0dee7cd2.js.map": "/static/js/main.0dee7cd2.js.map"
+    "main.8f85ed71.css.map": "/static/css/main.8f85ed71.css.map",
+    "main.fdc082e8.js.map": "/static/js/main.fdc082e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d455066.css",
-    "static/js/main.0dee7cd2.js"
+    "static/css/main.8f85ed71.css",
+    "static/js/main.fdc082e8.js"
   ]
 }
