@@ -62,7 +62,8 @@ function Hero(props) {
       <div
         className="absolute top-10 right-10 text-gray-900 bg-gradient-to-r from-yellow-300  to-amber-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-lg shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-bold rounded-lg text-sm px-7 py-2.5 text-center mr-2 mb-2"
       >
-        RSVPED: <CountUp end={rsvpCount} duration={1} />
+        RSVPED: 200+
+        {/* <CountUp end={rsvpCount} duration={1} /> */}
       </div>
       <RSVPButton
         rsvpCount = {rsvpCount}
