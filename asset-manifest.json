@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1dea878.css",
-    "main.js": "/static/js/main.a7636131.js",
+    "main.js": "/static/js/main.3fa31cf1.js",
     "static/media/Timeline.webp": "/static/media/Timeline.5a2158e0d6c42c960209.webp",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
@@ -15,10 +15,10 @@
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
     "main.c1dea878.css.map": "/static/css/main.c1dea878.css.map",
-    "main.a7636131.js.map": "/static/js/main.a7636131.js.map"
+    "main.3fa31cf1.js.map": "/static/js/main.3fa31cf1.js.map"
   },
   "entrypoints": [
     "static/css/main.c1dea878.css",
-    "static/js/main.a7636131.js"
+    "static/js/main.3fa31cf1.js"
   ]
 }
