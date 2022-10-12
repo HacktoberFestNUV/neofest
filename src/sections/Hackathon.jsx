@@ -33,7 +33,7 @@ const Hackathon = () => {
       </div>
       <div
         className="apply-button h-[44px] w-[312px]"
-        data-hackathon-slug="YOUR-HACKATHON-SLUG"
+        data-hackathon-slug="neohacks"
         data-button-theme="light"
       ></div>
     </div>
