@@ -24,3 +24,15 @@
     content: url('../assets/Filecoin_White.webp');
     width: 75%;
 }
+#netweb{
+    content: url('../assets/netweb.webp');
+    width: 100%;
+}
+#csp{
+    content: url('../assets/csp_square.webp');
+    width: 40%;
+}
+#voiceflow{
+    content: url('../assets/Voiceflow_Logo_White.webp');
+    width: 70%;
+}

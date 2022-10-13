@@ -47,7 +47,25 @@ function Sponsors() {
         </h1>
       </div>
 
-      <div className="h-fitcontent flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
+      <div className="h-fitcontent md:mt-8 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
+        <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://www.netweb.biz/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='netweb'/>
+          </a>
+        </div>
+        <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://www.cspsquare.in/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='csp'/>
+          </a>
+        </div>
+        <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://www.voiceflow.com/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='voiceflow'/>
+          </a>
+        </div>
+      </div>
+
+      <div className="h-fitcontent md:mt-8 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
         <div className='md:w-1/3 flex justify-center items-center'>
           <a href="https://replit.com/~" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='replit'/>
