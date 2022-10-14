@@ -36,3 +36,13 @@
     content: url('../assets/Voiceflow_Logo_White.webp');
     width: 70%;
 }
+
+#hcs{
+    content: url('../assets/hackclubSVIT.png');
+    width: 50%;
+}
+
+#gdscnuv{
+    content: url('../assets/gdscNUV.png');
+    width: 100%;
+}

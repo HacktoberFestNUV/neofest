@@ -82,6 +82,32 @@ function Sponsors() {
           </a>
         </div>
       </div>
+
+      <div className=" w-full mb-4 md:mb-20 mt-12 md:mt-24 flex justify-center items-center text-4xl md:text-6xl">
+        <h1 className="text-4xl md:text-6xl text-center font-heading font-extrabold bg-gradient-to-r from-[#BFA8FF] via-[#FABAA4] to-[#FFF08C] bg-transparent text-transparent bg-clip-text">
+          Community Partners
+        </h1>
+      </div>
+
+      <div className="h-fitcontent flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
+        <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://replit.com/~" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='hcs'/>
+          </a>
+        </div>
+        <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://solana.com/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='gdscnuv'/>
+          </a>
+        </div>
+        {/* <div className='md:w-1/3 flex justify-center items-center'>
+          <a href="https://filecoin.io/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+            <img src="" alt="" id='filecoin'/>
+          </a>
+        </div> */}
+      </div>
+
+
     </div>
   )
 }
