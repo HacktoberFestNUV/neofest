@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a29924a.css",
+    "main.css": "/static/css/main.1a1edf0f.css",
     "main.js": "/static/js/main.c8eae44c.js",
     "static/media/Timeline.webp": "/static/media/Timeline.5a2158e0d6c42c960209.webp",
     "static/media/Voiceflow_Logo_White.webp": "/static/media/Voiceflow_Logo_White.6d271f48ee2b25c0a6fb.webp",
@@ -8,20 +8,20 @@
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
     "static/media/clipart-2.png": "/static/media/clipart-2.7495d08d0d0b77065cbe.png",
     "static/media/clipart-1.png": "/static/media/clipart-1.660173ac7c4e340397a2.png",
-    "static/media/netweb.webp": "/static/media/netweb.078be37adda82ea0d4e4.webp",
     "static/media/csp_square.webp": "/static/media/csp_square.caa3c667d77aeb88a0b3.webp",
     "static/media/Replit-Dark-Background.webp": "/static/media/Replit-Dark-Background.4c5be2344acbc0b1c474.webp",
+    "static/media/NetWeb-Logo.webp": "/static/media/NetWeb-Logo.8b85d9ef2224109f84d1.webp",
     "static/media/Solana_Dark.webp": "/static/media/Solana_Dark.90cfadde61f6484af58e.webp",
     "static/media/roundtechsquare.webp": "/static/media/roundtechsquare.8928c5f583be17028739.webp",
     "static/media/Filecoin_White.webp": "/static/media/Filecoin_White.f38baa3178beea941f29.webp",
     "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
-    "main.0a29924a.css.map": "/static/css/main.0a29924a.css.map",
+    "main.1a1edf0f.css.map": "/static/css/main.1a1edf0f.css.map",
     "main.c8eae44c.js.map": "/static/js/main.c8eae44c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a29924a.css",
+    "static/css/main.1a1edf0f.css",
     "static/js/main.c8eae44c.js"
   ]
 }
