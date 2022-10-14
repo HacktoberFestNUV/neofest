@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a1edf0f.css",
-    "main.js": "/static/js/main.c8eae44c.js",
+    "main.css": "/static/css/main.94b13a5f.css",
+    "main.js": "/static/js/main.2d5b32f0.js",
     "static/media/Timeline.webp": "/static/media/Timeline.5a2158e0d6c42c960209.webp",
     "static/media/Voiceflow_Logo_White.webp": "/static/media/Voiceflow_Logo_White.6d271f48ee2b25c0a6fb.webp",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
     "static/media/neofest-3.webp": "/static/media/neofest-3.fec82f18ed57451cfc94.webp",
     "static/media/clipart-2.png": "/static/media/clipart-2.7495d08d0d0b77065cbe.png",
     "static/media/clipart-1.png": "/static/media/clipart-1.660173ac7c4e340397a2.png",
+    "static/media/gdscNUV.png": "/static/media/gdscNUV.e8c2910205d79bdf4df6.png",
+    "static/media/hackclubSVIT.png": "/static/media/hackclubSVIT.603ce1420f8b0ecfbbe5.png",
     "static/media/csp_square.webp": "/static/media/csp_square.caa3c667d77aeb88a0b3.webp",
     "static/media/Replit-Dark-Background.webp": "/static/media/Replit-Dark-Background.4c5be2344acbc0b1c474.webp",
     "static/media/NetWeb-Logo.webp": "/static/media/NetWeb-Logo.8b85d9ef2224109f84d1.webp",
@@ -17,11 +19,11 @@
     "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
-    "main.1a1edf0f.css.map": "/static/css/main.1a1edf0f.css.map",
-    "main.c8eae44c.js.map": "/static/js/main.c8eae44c.js.map"
+    "main.94b13a5f.css.map": "/static/css/main.94b13a5f.css.map",
+    "main.2d5b32f0.js.map": "/static/js/main.2d5b32f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a1edf0f.css",
-    "static/js/main.c8eae44c.js"
+    "static/css/main.94b13a5f.css",
+    "static/js/main.2d5b32f0.js"
   ]
 }
