@@ -100,11 +100,11 @@ function Sponsors() {
             <img src="" alt="" id='gdscnuv'/>
           </a>
         </div>
-        {/* <div className='md:w-1/3 flex justify-center items-center'>
+        <div className='md:w-1/3 flex justify-center items-center'>
           <a href="https://filecoin.io/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
-            <img src="" alt="" id='filecoin'/>
+            <img src="" alt="" id='gdscgsfc'/>
           </a>
-        </div> */}
+        </div>
       </div>
 
 
