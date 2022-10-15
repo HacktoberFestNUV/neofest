@@ -89,19 +89,19 @@ function Sponsors() {
         </h1>
       </div>
 
-      <div className="h-fitcontent flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 flex-wrap w-[45%] md:w-[70%]" id='sponsor-box-2'>
+      <div className="h-fitcontent flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 flex-wrap w-[45%] md:w-[75%]" id='sponsor-box-2'>
         <div className='md:w-1/3 flex justify-center items-center'>
-          <a href="https://replit.com/~" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+          <a href="https://www.hackclubsvit.co/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='hcs'/>
           </a>
         </div>
         <div className='md:w-1/3 flex justify-center items-center'>
-          <a href="https://solana.com/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+          <a href="https://gdsc.community.dev/navrachana-university-vadodara/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='gdscnuv'/>
           </a>
         </div>
         <div className='md:w-1/3 flex justify-center items-center'>
-          <a href="https://filecoin.io/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
+          <a href="https://gdsc.community.dev/gsfc-university-vadodara/" target={'_blank'} rel='noreferrer' className='flex justify-center items-center'>
             <img src="" alt="" id='gdscgsfc'/>
           </a>
         </div>
