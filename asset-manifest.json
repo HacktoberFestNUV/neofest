@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b72b54e.css",
-    "main.js": "/static/js/main.5e05942f.js",
+    "main.css": "/static/css/main.89ebc3a4.css",
+    "main.js": "/static/js/main.2d3317e7.js",
     "static/media/Timeline.webp": "/static/media/Timeline.5a2158e0d6c42c960209.webp",
     "static/media/Voiceflow_Logo_White.webp": "/static/media/Voiceflow_Logo_White.6d271f48ee2b25c0a6fb.webp",
     "static/media/neofest-2.webp": "/static/media/neofest-2.28358bc5655419d7cf10.webp",
@@ -20,11 +20,11 @@
     "static/media/Polygon_Logo-White.webp": "/static/media/Polygon_Logo-White.6c0dfcfa4fee2edb6cd4.webp",
     "index.html": "/index.html",
     "static/media/Devfolio_Logo-White.webp": "/static/media/Devfolio_Logo-White.12027c5082de0f01e856.webp",
-    "main.0b72b54e.css.map": "/static/css/main.0b72b54e.css.map",
-    "main.5e05942f.js.map": "/static/js/main.5e05942f.js.map"
+    "main.89ebc3a4.css.map": "/static/css/main.89ebc3a4.css.map",
+    "main.2d3317e7.js.map": "/static/js/main.2d3317e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b72b54e.css",
-    "static/js/main.5e05942f.js"
+    "static/css/main.89ebc3a4.css",
+    "static/js/main.2d3317e7.js"
   ]
 }
